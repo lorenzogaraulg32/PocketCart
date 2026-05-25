@@ -21,10 +21,15 @@ The goal of the project was to build a complete mobile marketplace where users c
 - Review system
 - Firebase / Firestore-based backend
 
-### Project Status
 
-This project was developed several years ago as a university team project.  
-The application is currently still available for download, but some features may not work correctly due to deprecated dependencies, external API changes, or backend configuration issues.
+## Download
+
+The application is currently available on Google Play:
+
+[Download PocketCart on Google Play](https://play.google.com/store/apps/details?id=it.uniupo.ebay_clone)
+
+> Note: this project was developed several years ago as a university team project.  
+> Some features may no longer work correctly due to deprecated dependencies, external API changes, or backend configuration issues.
 
 
 ## Italiano
@@ -48,7 +53,12 @@ L’obiettivo del progetto era realizzare un marketplace mobile completo, in cui
 - Sistema di recensioni
 - Backend basato su Firebase / Firestore
 
-### Stato del progetto
 
-Il progetto è stato sviluppato alcuni anni fa come progetto universitario in team.  
-L’applicazione risulta attualmente ancora disponibile per il download, ma alcune funzionalità potrebbero non funzionare correttamente a causa di dipendenze deprecate, cambiamenti nelle API esterne o configurazioni del backend non più aggiornate.
+## Download
+
+L’applicazione è attualmente disponibile su Google Play:
+
+[Scarica PocketCart su Google Play](https://play.google.com/store/apps/details?id=it.uniupo.ebay_clone)
+
+> Nota: il progetto è stato sviluppato alcuni anni fa come progetto universitario in team.  
+> Alcune funzionalità potrebbero non funzionare correttamente a causa di dipendenze deprecate, cambiamenti nelle API esterne o configurazioni del backend non più aggiornate.
