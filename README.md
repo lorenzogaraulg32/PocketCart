@@ -22,6 +22,33 @@ The goal of the project was to build a complete mobile marketplace where users c
 - Firebase / Firestore-based backend
 
 
+### Technologies Used
+
+- Kotlin
+- Android SDK
+- Firebase Authentication
+- Cloud Firestore
+- Firebase Storage
+- Firebase / Firestore real-time updates
+- Google Maps APIs
+- Material Design components
+- Gradle
+
+
+### Configuration
+
+For security reasons, Firebase configuration files and external API keys are not included in this repository.
+
+To run the project locally, you need to provide your own configuration files and API keys, including:
+
+- Firebase configuration file: `google-services.json`
+- Google Maps API key: `YOUR_GOOGLE_MAPS_API_KEY`
+
+The Google Maps API key is referenced in:
+
+xml
+app/src/main/res/values/google_maps_api.xml
+
 ## Download
 
 The application is currently available on Google Play:
@@ -54,6 +81,33 @@ L’obiettivo del progetto era realizzare un marketplace mobile completo, in cui
 - Backend basato su Firebase / Firestore
 
 
+### Tecnologie utilizzate
+
+- Kotlin
+- Android SDK
+- Firebase Authentication
+- Cloud Firestore
+- Firebase Storage
+- Aggiornamenti real-time tramite Firebase / Firestore
+- Google Maps APIs
+- Componenti Material Design
+- Gradle
+
+
+### Configurazione
+
+Per motivi di sicurezza, i file di configurazione Firebase e le chiavi per API esterne non sono inclusi in questo repository.
+
+Per eseguire il progetto in locale è necessario fornire le proprie configurazioni e chiavi, tra cui:
+
+- File di configurazione Firebase: `google-services.json`
+- Chiave Google Maps API: `YOUR_GOOGLE_MAPS_API_KEY`
+
+La chiave Google Maps è referenziata in:
+
+xml
+app/src/main/res/values/google_maps_api.xml
+  
 ## Download
 
 L’applicazione è attualmente disponibile su Google Play:
