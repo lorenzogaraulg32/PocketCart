@@ -52,8 +52,3 @@ L’obiettivo del progetto era realizzare un marketplace mobile completo, in cui
 
 Il progetto è stato sviluppato alcuni anni fa come progetto universitario in team.  
 L’applicazione risulta attualmente ancora disponibile per il download, ma alcune funzionalità potrebbero non funzionare correttamente a causa di dipendenze deprecate, cambiamenti nelle API esterne o configurazioni del backend non più aggiornate.
-
-### Licenza
-
-Questo progetto è reso disponibile esclusivamente per finalità di portfolio e valutazione.  
-Tutti i diritti sono riservati. Non è concesso alcun permesso di copiare, modificare, distribuire o utilizzare il codice senza esplicita autorizzazione scritta.
