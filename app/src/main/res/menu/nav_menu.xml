@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:backgroundTint="@color/primary_color"
+    tools:showIn="navigation_view">
+
+    <group
+        android:backgroundTint="@color/primary_color"
+        android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/nav_home"
+            android:title="@string/nav_home_title" />
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/nav_profile"
+            android:iconTint="@color/white"
+            android:title="@string/nav_profile" />
+
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/baseline_chat_24"
+            android:title="Chat" />
+
+
+        <item
+            android:id="@+id/nav_about_us"
+            android:icon="@drawable/baseline_info_24"
+            android:title="AboutUs" />
+
+       <item
+            android:id="@+id/nav_sell_item"
+            android:icon="@drawable/nav_sell"
+            android:title="@string/nav_sell_item" />
+
+        <item
+            android:id="@+id/nav_reviews"
+            android:icon="@drawable/baseline_reviews_24"
+            android:title="Recensioni" />
+
+        <item
+            android:id="@+id/nav_Admin_user"
+            android:icon="@drawable/nav_gestisci_utenti"
+            android:title="Gestisci utenti"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/nav_Admin_stat"
+            android:icon="@drawable/nav_stats"
+            android:title="Guarda statistiche"
+            android:visible="false" />
+    </group>
+
+</menu>

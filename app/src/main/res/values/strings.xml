@@ -1,0 +1,407 @@
+<resources>
+
+
+    //regStrings
+    <string name="reg_dati">DATI</string>
+    <string name="reg_posizione">POSIZONE</string>
+    <string name="reg_userData_title">I TUOI DATI</string>
+    <string name="pos_title_reg">La tua Posizione</string>
+    <string name="chosefromMap">Scegli dalla mappa</string>
+    <string name="mappa">Mappa</string>
+    <string name="yourPos_reg">Dove ti trovi ora</string>
+    <string name="reg_pos_info_subtitle">Puoi anche selezionarlo in seguito</string>
+
+
+    //hint strings
+    <string name="hint_homepage_searchBar">Cerca</string>
+    <string name="fullname_hint">Nome e cognome</string>
+    <string name="email_hint">Email</string>
+    <string name="pass_hint">Password</string>
+    <string name="conf_pass_hint">Conferma Password</string>
+    <string name="username_hint">Username</string>
+    <string name="search_hint">Cerca un oggetto</string>
+    <string name="sell_form_hint_nome">Nome</string>
+
+    //search page
+    <string name="ricerca_avanzata_title">Ricerca avanzata</string>
+    <string name="ricerca_avanzata_title2">Dove lo stai cercando?</string>
+    <string name="distanza_hint">DISTANZA</string>
+    <string name="min_hint">MIN</string>
+    <string name="max_hint">MAX</string>
+    <string name="salva_la_tua_ricerca">SALVA LA TUA RICERCA</string>
+    <string name="save_desc1">Riceverai una notifica quando un oggetto che rispecchia i parametri sarà disponibile</string>
+    <string name="save_desc_2">Potrai trovarla successivamente nel tuo profilo</string>
+    <string name="src_btn">CERCA</string>
+    <string name="tra_src">TRA</string>
+    <string name="and_src">E</string>
+
+    //err strings
+    <string name="err_not_empty">Il campo non può essere vuoto</string>
+    <string name="log_err_email_format">Inserire un email valida</string>
+    <string name="failed_login">Email o password non corretti, Riprova</string>
+    <string name="reg_pos_placeholder">Nessun Indirizzo Inserito</string>
+    <string name="reg_err_email_already">Email già in uso</string>
+    <string name="reg_name_short_err">Il nome deve contenere almeno 3 caratteri</string>
+    <string name="reg_username_length_err">L\'Username deve contenere min 3 e max 12 caratteri</string>
+    <string name="reg_username_already_err">Questo username è già in uso</string>
+    <string name="pass_err_length">La password deve essere almeno lunga 8 caratteri</string>
+    <string name="pass_err_upper">La password deve contenere almeno una maiuscola</string>
+    <string name="pass_err_digit">La password deve contenere almeno un numero</string>
+    <string name="reg_no_spec_char">Non può contenere caratteri speciali</string>
+    <string name="pos_err">Posizione obbligatoria</string>
+
+
+    //btn strings
+    <string name="show_item_info">Info Oggetto</string>
+    <string name="show_seller_info">Info Venditore</string>
+    <string name="buy_item_btn">Compra Subito</string>
+    <string name="chat_btn">CHAT</string>
+    <string name="home_btn">home</string>
+    <string name="home_btn_advSearch">ricerca avanzata</string>
+    <string name="home_pref_btn">preferiti</string>
+    <string name="home_res_btn">risultati</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="photo_remove_btn">Elimina una foto</string>
+    <string name="add_photo_btn">Aggiungi una foto</string>
+
+
+
+    //title strings
+    <string name="description_title">DESCRIZIONE: </string>
+    <string name="condition_title">Stato dell\'oggetto: </string>
+    <string name="shipping_title">Spedito da: </string>
+    <string name="home_username">Ciao </string>
+    <string name="sellform_title">METTI IN VENDITA</string>
+    <string name="app_name">PocketCart</string>
+    <string name="reg_title">REGISTRAZIONE</string>
+    <string name="reg_sub_title">Crea un\'account</string>
+    <string name="app_description">REGISTRATI PER INIZIARE AD USARE L\'APP, SE POSSIEDI UN ACCOUNT EFFETTUA IL LOGIN </string>
+    <string name="reg_button">REGISTRATI</string>
+    <string name="log_button">LOGIN</string>
+    <string name="log_no_acc">Non hai un account? Registrati</string>
+    <string name="reg_have_acc">Hai già un account? Login</string>
+    <string name="log_sub_title">EFFETTUA L\'ACCESSO</string>
+    <string name="id_utente_homepage">Utente X</string>
+    <string name="categoria_form_title">CATEGORIA E CONDIZIONE</string>
+    <string name="categoria_title">Categoria</string>
+    <string name="sub_category_title">Categoria</string>
+    <string name="item_condition">Condizioni</string>
+    <string name="sell_form_title_itemInfo">INFORMAZIONI GENERALI</string>
+
+    //stringhe condizioni
+    <string name="cond0">Nuovo</string>
+    <string name="cond1">Usato ma in perfette condizioni</string>
+    <string name="cond2">Qualche lieve difetto</string>
+    <string name="cond3">Difettoso</string>
+
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="nav_home_title">Home</string>
+    <string name="nav_settings_title">Settings</string>
+    <string name="nav_about_us_title">About Us</string>
+    <string name="nav_profile">Profilo</string>
+    <string name="nav_sell_item">Vendi un oggetto</string>
+
+    <string name="item_description">BREVE DESCRIZIONE OGGETTO</string>
+    <string name="item_price">PREZZO</string>
+
+    <string name="base_photo_err">Inserire almeno 1 foto</string>
+    <string name="price_title">SCEGLI UN PREZZO</string>
+    <string name="pos_title">DOVE SI TROVA</string>
+    <string name="shipping_switch">DISPONIBILITA\' A SPEDIRE</string>
+    <string name="sell_btn">METTI IN VENDITA</string>
+    <string name="price_err">Prezzo non valido</string>
+    <string name="euro">€</string>
+    <string name="your_pos_btn">Tua Posizione</string>
+
+    <string-array name="categorie">
+        <item> </item>
+        <item>Elettronica</item>
+        <item>Fashion</item>
+        <item>Casa</item>
+        <item>Salute</item>
+        <item>Sport</item>
+        <item>Libri</item>
+        <item>Animali</item>
+        <item>Macchina</item>
+        <item>Ufficio</item>
+    </string-array>
+
+    <string-array name="sotto_categorie_empty">
+        <item> </item>
+    </string-array>
+
+    <string-array name="sotto_categorie_elettronica">
+        <item> </item>
+        <item>Cellulari</item>
+        <item>Laptop e PC</item>
+        <item>Tablet e e-readers</item>
+        <item>Fotocamera</item>
+        <item>Gaming</item>
+        <item>Altro</item>
+    </string-array>
+
+    <string-array name="sotto_categorie_fashion">
+        <item> </item>
+        <item>Vestiti Uomo</item>
+        <item>Vestiti Donna</item>
+        <item>Vestiti Bambino</item>
+        <item>Scarpe</item>
+        <item>Accessori</item>
+        <item>Gioielli</item>
+        <item>Altro</item>
+    </string-array>
+
+    <string-array name="sotto_categorie_casa">
+        <item> </item>
+        <item>Camera da letto</item>
+        <item>Cucina</item>
+        <item>Salotto</item>
+        <item>Utensili</item>
+        <item>Attrezzi da giardino</item>
+        <item>Stoviglie</item>
+        <item>Altro</item>
+    </string-array>
+
+    <string-array name="sotto_categorie_salute">
+        <item> </item>
+        <item>Skincare</item>
+        <item>Makeup</item>
+        <item>Prodotti per Capelli</item>
+        <item>Bagno e Doccia</item>
+        <item>Profumi</item>
+        <item>Salute Personale</item>
+        <item>Altro</item>
+
+    </string-array>
+
+    <string-array name="sotto_categorie_sport">
+        <item> </item>
+        <item>Calcio</item>
+        <item>Tennis</item>
+        <item>Pallavolo</item>
+        <item>Basket</item>
+        <item>Golf</item>
+        <item>Nuoto</item>
+        <item>Altro</item>
+    </string-array>
+
+    <string-array name="sotto_categorie_libri">
+        <item> </item>
+        <item>Gialli</item>
+        <item>Non-Fiction</item>
+        <item>Fiction</item>
+        <item>Libri per Bambini</item>
+        <item>Horror</item>
+        <item>Romanzi</item>
+        <item>Altro</item>
+    </string-array>
+
+    <string-array name="sotto_categorie_animali">
+        <item> </item>
+        <item>Cane</item>
+        <item>Gatto</item>
+        <item>Roditori</item>
+        <item>Pesci</item>
+        <item>Uccelli</item>
+        <item>Altro</item>
+    </string-array>
+
+    <string-array name="sotto_categorie_macchina">
+        <item> </item>
+        <item>Accessori</item>
+        <item>Manutenzione</item>
+        <item>Audio</item>
+        <item>Elettronica</item>
+        <item>Car-Care</item>
+        <item>Altro</item>
+    </string-array>
+
+    <string-array name="sotto_categorie_ufficio">
+        <item> </item>
+        <item>Accessori Scrivania</item>
+        <item>Stampanti e Scanner</item>
+        <item>Storage</item>
+        <item>Forniture per Arredo</item>
+        <item>Sedie da Scrivania</item>
+        <item>Altro</item>
+    </string-array>
+
+    <string-array name="condizioni">
+        <item> </item>
+        <item>Nuovo</item>
+        <item>Usato ma in perfette condizioni</item>
+        <item>Qualche lieve difetto</item>
+        <item>Difettoso</item>
+    </string-array>
+
+    <string-array name="condizioni_mod">
+        <item>Nuovo</item>
+        <item>Usato ma in perfette condizioni</item>
+        <item>Qualche lieve difetto</item>
+        <item>Difettoso</item>
+    </string-array>
+
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="km_src">KM</string>
+    <string name="price_src">Range di prezzo</string>
+    <string name="sshipping_switch_src">Spedizione</string>
+    <string name="ricerca_avanzata">Ricerca avanzata</string>
+
+
+    <string name="about_us">
+        .
+    </string>
+    <string name="dopo_l_acquisto">DOPO L\'ACQUISTO:</string>
+    <string name="modifica">MODIFICA</string>
+    <string name="spedito_a">SPEDITO A:</string>
+    <string name="nome_placeholder">NOME PLACEHOLDER</string>
+    <string name="descrizione_placeholder">Descrizione placeholder</string>
+    <string name="prezzo_placeholder">Prezzo placeholder €</string>
+    <string name="l_oggetto_si_trova_a">L\'OGGETTO SI TROVA A:</string>
+    <string name="indirizzo_oggetto_placeholder">indirizzo oggetto placeholder</string>
+    <string name="indirizzo_spedizione_placeholder_accordati_con_il_proprietario_per_il_ritiro_in_zona">indirizzo Spedizione placeholder/accordati con il proprietario per il ritiro in zona</string>
+    <string name="il_tuo_saldo">IL TUO SALDO:</string>
+    <string name="saldo_utente_placeholder_xx_xx">saldo utente placeholder = xx.xx</string>
+    <string name="saldo_post_acquisto_xx_xx">saldo post acquisto = xx.xx</string>
+    <string name="comferma_l_acquisto">Comferma l\'acquisto</string>
+    <string name="sell_title">RIEPILOGO ORDINE</string>
+    <string name="ban_text">Il tuo account è stato bloccato dall\'amministratore! Prego effettuare il Logout</string>
+    <string name="mex_title">MESSAGGI</string>
+    <string name="username">LOMBAX</string>
+    <string name="input_mex_hint">Scrivi un mesaggio</string>
+    <string name="mod_form_title">MODIFICA</string>
+    <string name="prev">PRECENDENTE :</string>
+    <string name="mod_btn">MODIFICA</string>
+    <string name="user_name">LOMBAX</string>
+    <string name="recharge_btn">RICARICA</string>
+    <string name="update_pos">Aggiorna</string>
+    <string name="profile_first_title">I Tuoi Acquisti</string>
+    <string name="saved_search">Ricerche Salvate</string>
+    <string name="profile_title_2">In Vendita</string>
+    <string name="profiile_sold_history">Storico Vendite</string>
+    <string name="mex_placeholder">Messaggio placeholder</string>
+    <string name="date_placeholder">25-12-2001 15:18:03</string>
+    <string name="base_pos_err">nessuna posizione selezionata</string>
+    <string name="price_hint">0.00€</string>
+    <string name="ammount_credit">IMPORTO</string>
+    <string name="cvv_err">CVV errato</string>
+    <string name="cvv_hint">CVV</string>
+    <string name="expire_date_err">Errore data scadenza</string>
+    <string name="mmaa_hint">MM/AA</string>
+    <string name="expire_title_credit">Data di Scadenza</string>
+    <string name="credit_card_num_err">Errore numero carta di credito</string>
+    <string name="credit_card_hint">0000-0000-0000-0000</string>
+    <string name="credit_card_title">Numero carta</string>
+    <string name="recharge_credit_title">RICARICA FONDI</string>
+    <string name="chat_btn_item">CHAT</string>
+    <string name="conf_pos_maps_frag">CONFERMA POSIZIONE</string>
+    <string name="empty_pref_frag">Nessun Preferito</string>
+    <string name="empty_res_frag">Nessuna ricerca fatta</string>
+    <string name="rev_rating">Da 0 a 5</string>
+    <string name="rev_comment">Breve commento</string>
+    <string name="toast_pos_err">"Posizione non trovata, sei con un emulatore? "</string>
+    <string name="toast_err_buy3">Stai cercando di comprare un tuo oggetto</string>
+    <string name="toast_err_buy2">Il venditore è probabilmente stato eliminato</string>
+    <string name="toast_buy_good_ending">Oggetto comprato Correttamente</string>
+    <string name="toast_authorization_missing">Non hai più le autorizzazioni</string>
+    <string name="where_to_ship">Perfavore selezionare dove verrà spedito l\'oggetto</string>
+    <string name="toast_buy_err1">Selezionare una posizione</string>
+    <string name="toast_buy_err_poor">Non ci sono abbastanza fondi</string>
+    <string name="your_credit">Il tuo saldo:</string>
+    <string name="poor_err">Non ci sono abbastanza fondi per continuare, perfavore ricaricare il portafoglio</string>
+    <string name="toast_img_err">"errore immagine "</string>
+    <string name="ritiro_in_zona">Accordarsi con il venditore per il ritiro in zona</string>
+    <string name="ritiro_in_zona2">RITIRO IN ZONA</string>
+    <string name="toast_photo_err">"Errore retrival foto "</string>
+    <string name="suspended_allert">Il tuo account è stato sospeso dall\'amministratore,\n non potrai eseguire le seguenti operazioni:\n</string>
+    <string name="suspended_allert1">1.Inviare messaggi agli altri utenti\n</string>
+    <string name="suspended_allert2">2.Comprare, Vendere o Modificare oggetti</string>
+    <string name="attenzione">Attenzione!!</string>
+    <string name="banned1">1.Tutti i tuoi oggetti sono stati eliminati\n</string>
+    <string name="banned">Il tuo account è stato ELIMINATO dall\'amministratore,\n Conseguenze:\n</string>
+    <string name="banned2">2.Tutte le tue chat sono state eliminate</string>
+    <string name="auth_notification_missing">NOTIFICHE NON AUTORIZZATE</string>
+    <string name="notification_desc1">Ci sono nuovi risultati per le ricerche salvate</string>
+    <string name="notification_title_pref">Variazione prezzo preferito</string>
+    <string name="notification_desc_2">Una dei tuoi oggetti preferiti ha subito una variazione di prezzo</string>
+    <string name="notification_desc3">Ci sono nuovi risultati per le ricerche salvate</string>
+    <string name="notificatiion_title_search">La tua ricerca ha ora nuovi risultati</string>
+    <string name="notification_dec4">Una delle tue ricerche salvate ha prodotto dei nuovi risultati</string>
+    <string name="ritiro_in_loco">Ritiro in loco</string>
+    <string name="rew_allert">Puoi lasciare una recensione solo dopo l\'acquisto di questo oggetto</string>
+    <string name="rew_toast_already">Hai già lasciato una recensione</string>
+    <string name="rew_title_allert">LASCIA UNA RECENSIONE</string>
+    <string name="rew_msg_allert">Lascia una recensione da 1 a 5 stelle</string>
+    <string name="reww_err_alleert">Valore non valido</string>
+    <string name="rew_feedback1">Recensione al venditore lasciata</string>
+    <string name="rew_feedback2">Recensione al compratore lasciata</string>
+    <string name="conf_allert">Conferma</string>
+    <string name="annulla_allert">Annulla</string>
+    <string name="img_err">Errore durante il recupero dell\'immagine: %1$s</string>
+    <string name="toast_toggle_pref_1">Rimosso dai Preferiti</string>
+    <string name="toast_toggle_pref_2">Aggiunto ai Preferiti</string>
+    <string name="rimuovi">"Rimuovi "</string>
+    <string name="allert_delete_item">Rimuovere l\'oggetto?</string>
+    <string name="yessir">Si!</string>
+    <string name="nosir">No!</string>
+    <string name="pos_auth_err">Autorizzare  accesso posizione per eseguire</string>
+    <string name="pos_auth_not_err">Autorizzazione c\'è</string>
+    <string name="emualtor_err">"Posizione non trovata, sei con un emulatore? "</string>
+    <string name="mod">Modifiche in corso</string>
+    <string name="max_photo">Foto massime 4</string>
+    <string name="pos_not_saved">Non hai la Posizione salvata</string>
+    <string name="positive_mod_msg">Oggetto modificato correttamente</string>
+    <string name="name_length_err1">Il nome deve avere almeno 3 caratteri</string>
+    <string name="name_length_err2">Il nome non deve superare i 50 caratteri</string>
+    <string name="desc_length_err1">La Descrizione deve avere almeno 3 caratteri</string>
+    <string name="desc_length_err2">La Descrizione non deve superare i 300 caratteri</string>
+    <string name="price_format_err">Usare formato 0000.00</string>
+    <string name="price_tooHigh_err">Numero troppo alto ( MAX : 9999.99 )</string>
+    <string name="ob_pos_err">Posizione obbligatoria</string>
+    <string name="back_original_photo">VERRANNO RIPRISTINATE LE VECCHIE FOTO</string>
+    <string name="reg_good">Registrazione Riuscita!</string>
+    <string name="reg_fail">Registrazione Fallita!</string>
+    <string name="reg_doing">Registrazione In corso</string>
+    <string name="pass_not_match_err">Le due password devono coincidere</string>
+    <string name="max_photo_err">Foto massime 4</string>
+    <string name="photo_missing">Inserire almeno 1 Foto</string>
+    <string name="selll_good_ending">Oggetto messo in vendita correttamente</string>
+    <string name="no_user_addr">Non è stato inserito alcun indirizzo</string>
+    <string name="posizione_confermata">Posizione Confermata</string>
+    <string name="nessuna_posizione">Nessuna Posizione</string>
+    <string name="item_sold_title">STORICO VENDITE</string>
+    <string name="your_rew">RECENSIONI RICEVUTE</string>
+    <string name="reww">RECENSIONI</string>
+    <string name="leaved">Lasciate</string>
+    <string name="recived">Ricevute</string>
+    <string name="stats_tot_items">OGGETTI TOTALI IN VENDITA:</string>
+    <string name="toast_stat_pos">Non hai selezionato la posizione di partenza</string>
+    <string name="toast_stat_dist">Non hai selezionato la distanza</string>
+    <string name="stat_no_user">NESSUN UTENTE SELZIONATO</string>
+    <string name="admin">ADMIN</string>
+    <string name="non_trovato">NON TROVATO</string>
+    <string name="n_obj_days_title_stats">UN OGGETTO RIMANE IN VENDITA IN MEDIA:</string>
+    <string name="pos_stat_title">ESPLORA VENDITE NELLA ZONA</string>
+    <string name="pos_btn_stats">SCEGLI ZONA</string>
+    <string name="hint_pos_stats">DISTANZA</string>
+    <string name="pos_res_btn">CALCOLA</string>
+    <string name="res_pos_stats">RISULTATO :</string>
+    <string name="stat_title">STATISTICHE</string>
+    <string name="stat_btn_user">TROVA UTENTE</string>
+    <string name="top5_stats">TOP 5 VENDITORI</string>
+    <string name="stat_name_hint">NOME</string>
+    <string name="user_handle_title">CERCA UTENTI</string>
+    <string name="find_user_hint">Cerca un utente</string>
+    <string name="delete_user_admin_btn">elimina utente</string>
+    <string name="apply_user_modification">APPLICA</string>
+    <string name="block_user_btn">Blocca utente</string>
+    <string name="suspend_user_btn">Sospendi utente</string>
+    <string name="welcome_abtus">BENVENUTO</string>
+    <string name="abtus_1">Questa app è una DEMO sviluppata come progetto universitario da Lorenzo Garau e Flavio Rognoni. Si tratta di un\'app di e-commerce che offre funzionalità principali per la compravendita di oggetti di vario genere, suddivisi per categorie e sottocategorie. Gli utenti possono effettuare transazioni utilizzando un portafoglio virtuale ricaricabile, simulando l\'inserimento dei dati di una carta di credito. \n\nPrima di poter utilizzare l\'app, gli utenti devono registrare un account inserendo le informazioni necessarie per il login. Inoltre, è possibile specificare un indirizzo di spedizione per facilitare futuri acquisti. \n\nUna volta effettuato l\'accesso, gli utenti verranno indirizzati alla homepage, che include le funzionalità principali dell\'applicazione. Attraverso quattro bottoni, è possibile accedere alle diverse sezioni, tra cui la ricerca di prodotti, l\'elenco degli oggetti in vendita e i preferiti. \n\nInoltre, nella homepage è presente un menu laterale accessibile tramite l\'apposito pulsante in alto a sinistra, che consente di navigare tra le diverse funzioni implementate. Invitiamo gli utenti a esplorare queste funzionalità per scoprire tutte le potenzialità dell\'applicazione</string>
+    <string name="abtus_2">LA STORIA\n\nIo, Lorenzo Garau, insieme al mio compagno di corso, abbiamo sviluppato questa applicazione come parte del nostro percorso di studio relativo allo sviluppo di applicazioni mobili. La creazione dell\'applicazione è stata guidata dai requisiti dell\'esame e ha richiesto circa 3-4 mesi di sviluppo. \n\nDopo aver superato l\'esame, ci è stata offerta l\'opportunità di pubblicare l\'applicazione sotto il nome dell\'università, un\'occasione che abbiamo accettato con entusiasmo. Personalmente, ho visto questa opportunità come un modo per ampliare le mie conoscenze nell\'ambito dello sviluppo di app mobili. Tra un esame e l\'altro, ho dedicato parte del mio tempo libero a risolvere bug e a migliorare significativamente l\'aspetto grafico, che inizialmente era stato trascurato. \nIn particolare, ho sperimentato l\'uso di fragment e transizioni, la creazione di stili diversi e la localizzazione in più lingue. Mi sono anche concentrato sul miglioramento delle prestazioni, implementando funzionalità come il caricamento ritardato (lazy loading), la compressione delle immagini e elementi grafici come lo shimmer e le barre di avanzamento per segnalare eventuali operazioni di caricamento all\'utente. Questa fase di revisione ha richiesto ulteriori 3 mesi da parte mia. \n\nPer concludere, vorrei condividere la mia opinione sulla realizzazione del progetto. Ovviamente, non è perfetto, e potrebbero esserci ancora alcuni bug minori che sono sfuggiti alla fase di testing. Tuttavia, nel complesso, siamo soddisfatti del risultato finale. La creazione di questo progetto ha sicuramente contribuito ad arricchire le nostre conoscenze, sia nell\'ambito specifico di Kotlin e XML, che in quello generale.</string>
+    <string name="abtus_contact">CONTATTI</string>
+    <string name="abtus_close_btn">CONTINUA</string>
+
+
+</resources>

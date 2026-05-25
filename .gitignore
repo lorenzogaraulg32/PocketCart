@@ -1,0 +1,36 @@
+# Gradle
+.gradle/
+build/
+*/build/
+
+# Local configuration
+local.properties
+
+# Android Studio
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Keystores and signing
+*.jks
+*.keystore
+*.p12
+*.pem
+
+# Environment / secrets
+.env
+*.env
+secrets.properties
+
+# Firebase / Google services
+google-services.json
+
+# Captures / generated
+captures/
+.externalNativeBuild/
+.cxx/
+
+struttura.txt

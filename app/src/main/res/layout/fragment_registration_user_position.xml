@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:paddingStart="10dp"
+    android:paddingTop="25dp"
+    android:paddingEnd="10dp"
+    android:paddingBottom="25dp"
+    tools:context=".RegistrationFragmentUserPosition">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/reg_activity2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/reg_pos_title"
+            style="@style/MainText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pos_title_reg"
+            android:textColor="@color/text_color"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/divider1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/text_color"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/reg_pos_title" />
+
+
+        <TextView
+            android:id="@+id/reg_pos_sub_title1"
+            style="@style/MainText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="25dp"
+            android:text="@string/chosefromMap"
+            android:textColor="@color/text_color"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/divider1" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_map"
+            style="@style/button2"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:drawableEnd="@drawable/baseline_arrow_forward_ios_24"
+            android:text="@string/mappa"
+            app:layout_constraintBottom_toBottomOf="@+id/reg_pos_sub_title1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/reg_pos_sub_title1" />
+
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="25dp"
+            android:background="@color/text_color"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/reg_pos_sub_title1" />
+
+
+
+        <View
+            android:id="@+id/divider3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="25dp"
+            android:background="@color/text_color"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/reg_pos_sub_title2" />
+
+
+        <TextView
+            android:id="@+id/reg_pos_sub_title2"
+            style="@style/MainText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="25dp"
+            android:text="@string/yourPos_reg"
+            android:textColor="@color/text_color"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/divider2" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_current_pos"
+            style="@style/button2"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:text="@string/your_pos_btn"
+            app:layout_constraintBottom_toBottomOf="@+id/reg_pos_sub_title2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/reg_pos_sub_title2" />
+
+
+        <TextView
+            android:id="@+id/pos"
+            style="@style/SecondaryText"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="@string/reg_pos_placeholder"
+            app:layout_constraintBottom_toTopOf="@id/btn_pos"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/divider3" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_pos"
+            style="@style/button2"
+            android:layout_width="320dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/conf_pos_maps_frag"
+            app:layout_constraintBottom_toTopOf="@id/reg_pos_later"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/reg_pos_later"
+            style="@style/MainText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/reg_pos_info_subtitle"
+            android:textColor="@color/text_color"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
